@@ -1,0 +1,20 @@
+outfitter Forge
+	"CMG-24-16 Gyroscope"
+	"CMG-48-32 Gyroscope"
+	"CMG-72-48 Gyroscope"
+	"CMG-96-64 Gyroscope"
+	"(Old) CMG-12-8 Gyroscope"
+	"(Old) CMG-24-16 Gyroscope"
+	"(Old) CMG-48-32 Gyroscope"
+
+outfitter "Common Outfits"
+	"CMG-24-16 Gyroscope"
+
+outfitter "Delta V Basics"
+	"CMG-24-16 Gyroscope"
+
+outfitter "Delta V Advanced"
+	"CMG-24-16 Gyroscope"
+	"CMG 48-32 Gyroscope"
+	"CMG 72-48 Gyroscope"
+	"CMG 96-64 Gyroscope"
