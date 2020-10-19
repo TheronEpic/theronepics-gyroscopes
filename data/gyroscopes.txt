@@ -1,0 +1,132 @@
+outfitter Forge
+	"CMG-24-16 Gyroscope"
+	"CMG-48-32 Gyroscope"
+	"CMG-72-48 Gyroscope"
+	"CMG-96-64 Gyroscope"
+	"(Old) CMG-12-8 Gyroscope"
+	"(Old) CMG-24-16 Gyroscope"
+	"(Old) CMG-48-32 Gyroscope"
+
+#Each tier above the first has 10% more turn per outfit space than the previous.
+outfit "CMG-24-16 Gyroscope"
+	cost 18000
+	category "Systems"
+	thumbnail "outfit/tiny gyroscope"
+	"mass" 24
+	"outfit space" -16
+#	"turn" 136.256
+	"turn" 73
+	"turning energy" 0.15
+	"turning heat" 0.15
+	"heat generation" 0.1
+	"energy consumption" 0.1
+	"energy capacity" 414
+	description `This dense module takes advantage of a rotating wheel of compressed and reinforced metal for two purposes: To store kinetic energy as a flywheel, and to produce torque. The motor that spins the gyroscope can either consume electricity to increase the gyroscope's speed, or resist that spin to return electricity, essentially making this function as a battery.`
+	description `Its second use is to produce torque. The entire module is mounted on a gimbal, which it can rotate to transfer some of the gyroscope's rotational energy to the ship, allowing the ship to rotate without the need for conventional thrusters.` 
+	description `	CMG Gyroscopes lose energy to friction in the form of heat, and must consume energy at all times to compensate.`
+
+outfit "CMG-48-32 Gyroscope"
+	cost 41400
+	category "Systems"
+	thumbnail "outfit/small gyroscope"
+	"mass" 48
+	"outfit space" -32
+#	"turn" 300
+	"turn" 157
+	"turning energy" 0.345
+	"turning heat" 0.345
+	"heat generation" 0.23
+	"energy consumption" 0.23
+	"energy capacity" 952
+	description "Ships attempting to maximise their forward thrust may gut some of their other systems, upgrade their engines, then add one of these gyroscopes to get rotation without taking away engine space."
+	description `CMG Gyroscopes lose energy to friction in the form of heat, and must consume energy at all times to compensate.`
+	description `The thumbnail for this is a placeholder.`
+
+outfit "CMG-72-48 Gyroscope"
+	cost 95200
+	category "Systems"
+	thumbnail "outfit/medium gyroscope"
+	"mass" 72
+	"outfit space" -48
+#	"turn" 315.42
+	"turn" 494.592
+	"turning energy" 0.7935
+	"turning heat" 0.7935
+	"heat generation" 0.529
+	"energy consumption" 0.529
+	"energy capacity" 1642
+	description `Gyroscopes such as this are commonly used on large satellites and relatively small space stations.`
+	description `	CMG Gyroscopes lose energy to friction in the form of heat, and must consume energy at all times to compensate.`
+	description `The thumbnail for this is a placeholder.`
+
+outfit "CMG-96-64 Gyroscope"
+	cost 219000
+	category "Systems"
+	thumbnail "outfit/large gyroscope"
+	"mass" 96
+	"outfit space" -64
+	"turn" 725.457
+	"turning energy" 1.82505
+	"turning heat" 1.82505
+	"heat generation" 1.2167
+	"energy consumption" 1.2167
+	"energy capacity" 2518
+#	"energy capacity" 4380
+	description `This is the largest CMG Gyroscope made commercially available so far, which can be a suitable swap with a ship's battery if their generators are already good enough, but their steering isn't. Besides ships, you can find gyroscopes like these in the cores of many major space stations around Human space.`
+	description `	CMG Gyroscopes lose energy to friction in the form of heat, and must consume energy at all times to compensate.`
+	description `The thumbnail for this is a placeholder.`
+#	description `	Ottoman district governer flat cutting edge Ottoman empire district governer flat cutting edge not forbid an implied thing from moving rapidly, Ottoman district governer flat cutting edge Ottoman empire district governer flat cutting edge not forbid an implied thing from moving rapidly,`
+
+outfit "(Old) CMG-12-8 Gyroscope"
+	cost 18000
+	category "Systems"
+	thumbnail "outfit/tiny gyroscope"
+	"mass" 12
+	"outfit space" -8
+#	"turn" 59.62
+	"turn" 73
+	"turning energy" 0.15
+	"turning heat" 0.15
+	"heat generation" 0.1
+	"energy consumption" 0.1
+	"energy capacity" 180
+#	"energy capacity" 360
+	description `This dense module takes advantage of a rotating wheel of compressed and reinforced metal for two purposes: To store kinetic energy as a flywheel, and to produce torque. The motor that spins the gyroscope can either consume electricity to increase the gyroscope's speed, or resist that spin to return electricity, essentially making this function as a battery.`
+	description `Its second use is to produce torque. The entire module is mounted on a gimbal, which it can rotate to transfer some of the gyroscope's rotational energy to the ship, allowing the ship to rotate without the need for conventional thrusters.` 
+	description `	CMG Gyroscopes lose energy to friction in the form of heat, and must consume energy at all times to compensate.`
+
+outfit "(Old) CMG-24-16 Gyroscope"
+	cost 41400
+	category "Systems"
+	thumbnail "outfit/small gyroscope"
+	"mass" 24
+	"outfit space" -16
+#	"turn" 137.137
+	"turn" 157
+	"turning energy" 0.345
+	"turning heat" 0.345
+	"heat generation" 0.23
+	"energy consumption" 0.23
+	"energy capacity" 414
+#	"energy capacity" 828
+	description "Ships attempting to maximise their forward thrust may gut some of their other systems, upgrade their engines, then add one of these gyroscopes to get rotation without taking away engine space."
+	description `CMG Gyroscopes lose energy to friction in the form of heat, and must consume energy at all times to compensate.`
+	description `The thumbnail for this is a placeholder.`
+
+outfit "(Old) CMG-48-32 Gyroscope"
+	cost 95200
+	category "Systems"
+	thumbnail "outfit/medium gyroscope"
+	"mass" 48
+	"outfit space" -32
+#	"turn" 315.42
+	"turn" 337.42
+	"turning energy" 0.7935
+	"turning heat" 0.7935
+	"heat generation" 0.529
+	"energy consumption" 0.529
+	"energy capacity" 952
+#	"energy capacity" 1904
+	description `Gyroscopes such as this are commonly used on large satellites and relatively small space stations.`
+	description `	CMG Gyroscopes lose energy to friction in the form of heat, and must consume energy at all times to compensate.`
+	description `The thumbnail for this is a placeholder.`
