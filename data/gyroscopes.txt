@@ -42,7 +42,6 @@ outfit "CMG-48-32 Gyroscope"
 	"energy capacity" 952
 	description "Ships attempting to maximise their forward thrust may gut some of their other systems, upgrade their engines, then add one of these gyroscopes to get rotation without taking away engine space."
 	description `CMG Gyroscopes lose energy to friction in the form of heat, and must consume energy at all times to compensate.`
-	description `The thumbnail for this is a placeholder.`
 
 outfit "CMG-72-48 Gyroscope"
 	cost 95200
@@ -59,7 +58,6 @@ outfit "CMG-72-48 Gyroscope"
 	"energy capacity" 1642
 	description `Gyroscopes such as this are commonly used on large satellites and relatively small space stations.`
 	description `	CMG Gyroscopes lose energy to friction in the form of heat, and must consume energy at all times to compensate.`
-	description `The thumbnail for this is a placeholder.`
 
 outfit "CMG-96-64 Gyroscope"
 	cost 219000
@@ -76,8 +74,6 @@ outfit "CMG-96-64 Gyroscope"
 #	"energy capacity" 4380
 	description `This is the largest CMG Gyroscope made commercially available so far, which can be a suitable swap with a ship's battery if their generators are already good enough, but their steering isn't. Besides ships, you can find gyroscopes like these in the cores of many major space stations around Human space.`
 	description `	CMG Gyroscopes lose energy to friction in the form of heat, and must consume energy at all times to compensate.`
-	description `The thumbnail for this is a placeholder.`
-#	description `	Ottoman district governer flat cutting edge Ottoman empire district governer flat cutting edge not forbid an implied thing from moving rapidly, Ottoman district governer flat cutting edge Ottoman empire district governer flat cutting edge not forbid an implied thing from moving rapidly,`
 
 outfit "(Old) CMG-12-8 Gyroscope"
 	cost 18000
