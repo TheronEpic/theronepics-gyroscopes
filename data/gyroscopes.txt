@@ -7,15 +7,17 @@ outfitter Forge
 	"(Old) CMG-24-16 Gyroscope"
 	"(Old) CMG-48-32 Gyroscope"
 
-#Each tier above the first has 10% more turn per outfit space than the previous.
+#Turn rate: (8.5 * 1.075^tier) * outfit space
+#Previously (8.5 * 1.1^tier) * outfit space
 outfit "CMG-24-16 Gyroscope"
 	cost 18000
 	category "Systems"
 	thumbnail "outfit/tiny gyroscope"
 	"mass" 24
 	"outfit space" -16
+	"turn" 136
 #	"turn" 136.256
-	"turn" 73
+#	"turn" 73
 	"turning energy" 0.15
 	"turning heat" 0.15
 	"heat generation" 0.1
@@ -31,8 +33,8 @@ outfit "CMG-48-32 Gyroscope"
 	thumbnail "outfit/small gyroscope"
 	"mass" 48
 	"outfit space" -32
-#	"turn" 300
-	"turn" 157
+	"turn" 292.4
+#	"turn" 157
 	"turning energy" 0.345
 	"turning heat" 0.345
 	"heat generation" 0.23
@@ -49,7 +51,7 @@ outfit "CMG-72-48 Gyroscope"
 	"mass" 72
 	"outfit space" -48
 #	"turn" 315.42
-	"turn" 494.592
+	"turn" 471.5
 	"turning energy" 0.7935
 	"turning heat" 0.7935
 	"heat generation" 0.529
@@ -65,7 +67,7 @@ outfit "CMG-96-64 Gyroscope"
 	thumbnail "outfit/large gyroscope"
 	"mass" 96
 	"outfit space" -64
-	"turn" 725.457
+	"turn" 675.81
 	"turning energy" 1.82505
 	"turning heat" 1.82505
 	"heat generation" 1.2167
