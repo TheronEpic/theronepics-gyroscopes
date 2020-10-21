@@ -1,12 +1,3 @@
-outfitter Forge
-	"CMG-24-16 Gyroscope"
-	"CMG-48-32 Gyroscope"
-	"CMG-72-48 Gyroscope"
-	"CMG-96-64 Gyroscope"
-	"(Old) CMG-12-8 Gyroscope"
-	"(Old) CMG-24-16 Gyroscope"
-	"(Old) CMG-48-32 Gyroscope"
-
 outfit "CMG-24-16 Gyroscope"
 	cost 18000
 	category "Systems"
@@ -24,7 +15,7 @@ outfit "CMG-24-16 Gyroscope"
 	"energy capacity" 414
 	description `This dense module takes advantage of a rotating wheel of compressed and reinforced metal for two purposes: To store kinetic energy as a flywheel, and to produce torque. The motor that spins the gyroscope can either consume electricity to increase the gyroscope's speed, or resist that spin to return electricity, essentially making this function as a battery.`
 	description `Its second use is to produce torque. The entire module is mounted on a gimbal, which it can rotate to transfer some of the gyroscope's rotational energy to the ship, allowing the ship to rotate without the need for conventional thrusters.` 
-	description `	CMG Gyroscopes lose energy to friction in the form of heat, and must consume energy at all times to compensate.`
+	description `	CMG Gyroscopes require an input of energy at all times to power their electromagnetic bearings.`
 
 outfit "CMG-48-32 Gyroscope"
 	cost 41400
@@ -41,7 +32,7 @@ outfit "CMG-48-32 Gyroscope"
 	"energy consumption" 0.46
 	"energy capacity" 952
 	description "Ships attempting to maximise their forward thrust may gut some of their other systems, upgrade their engines, then add one of these gyroscopes to get rotation without taking away engine space."
-	description `	CMG Gyroscopes require an input of energy at all times to power its electromagnetic bearings.`
+	description `	CMG Gyroscopes require an input of energy at all times to power their electromagnetic bearings.`
 
 outfit "CMG-72-48 Gyroscope"
 	cost 95200
@@ -58,7 +49,7 @@ outfit "CMG-72-48 Gyroscope"
 	"energy consumption" 0.7053
 	"energy capacity" 1642
 	description `Gyroscopes such as this are commonly used on large satellites and relatively small space stations.`
-	description `	CMG Gyroscopes require an input of energy at all times to power its electromagnetic bearings.`
+	description `	CMG Gyroscopes require an input of energy at all times to power their electromagnetic bearings.`
 
 outfit "CMG-96-64 Gyroscope"
 	cost 219000
@@ -75,7 +66,7 @@ outfit "CMG-96-64 Gyroscope"
 	"energy capacity" 2518
 #	"energy capacity" 4380
 	description `This is the largest CMG Gyroscope made commercially available so far, which can be a suitable swap with a ship's battery if their generators are already good enough, but their steering isn't. Besides ships, you can find gyroscopes like these in the cores of many major space stations around Human space.`
-	description `	CMG Gyroscopes require an input of energy at all times to power its electromagnetic bearings.`
+	description `	CMG Gyroscopes require an input of energy at all times to power their electromagnetic bearings.`
 
 
 #Capacity calculation: (140 + (10*tier*)) * outfitspace
@@ -89,11 +80,11 @@ outfit "FES-12 Flywheel Battery"
 	"mass" 18
 	"outfit space" -12
 #	"heat generation" 0.28
-	"energy consumption" 0.28
+	"energy consumption" 0.14
 #	"energy capacity" 1680
 	"energy capacity" 1800
 	description `Instead of using chemicals to store power, electricity can instead by converted to and from kinetic energy and stored in two conversely rotating flywheels. They consist of a reinforced, very dense metal inside a vacuum chamber, and suspended with magnetic bearings. Energy can be extracted using its internal motor-generator to generate a current by taking away rotational energy, or to use electricity to add rotational energy.`
-	description `	While Flywheel Batteries have much more capacity than a battery of the same size, they're more expensive, and they require an input of energy at all times to power its electromagnetic bearings.`
+	description `	While Flywheel Batteries have much more capacity than a battery of the same size, they're more expensive, and they require an input of energy at all times to power their electromagnetic bearings.`
 
 
 outfit "FES-24 Flywheel Battery"
@@ -103,10 +94,10 @@ outfit "FES-24 Flywheel Battery"
 	"mass" 36
 	"outfit space" -24
 #	"heat generation" 0.6
-	"energy consumption" 0.644
+	"energy consumption" 0.322
 	"energy capacity" 4080
 	description `Captains who do not expact to go into battle for long periods may swap out their generator for a smaller one and change their battery to one of these, making energy generation very low but capacity very high even compared to the same ship if they used chemical batteries.`
-	description `	While Flywheel Batteries have much more capacity than a battery of the same size, they're more expensive, and they require an input of energy at all times to power its electromagnetic bearings.`
+	description `	While Flywheel Batteries have much more capacity than a battery of the same size, they're more expensive, and they require an input of energy at all times to power their electromagnetic bearings.`
 
 
 outfit "FES-48 Flywheel Battery"
@@ -116,10 +107,10 @@ outfit "FES-48 Flywheel Battery"
 	"mass" 72
 	"outfit space" -48
 #	"heat generation" 1.28
-	"energy consumption" 1.48
+	"energy consumption" 0.74
 	"energy capacity" 9120
 	description `Batteries of this capacity are viable for a hot-running battleship, that needs more energy but can't afford to add a bigger generator without overheating. However, the energy usage to keep it running is costly.`
-	description `	While Flywheel Batteries have much more capacity than a battery of the same size, they're more expensive, and they require an input of energy at all times to power its electromagnetic bearings.`
+	description `	While Flywheel Batteries have much more capacity than a battery of the same size, they're more expensive, and they require an input of energy at all times to power their electromagnetic bearings.`
 
 #outfit "(Old) CMG-12-8 Gyroscope"
 #	cost 18000
