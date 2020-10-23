@@ -12,7 +12,7 @@ outfit "CMG-24-16 Gyroscope"
 #	"turn" 73
 	"turning energy" 0.16
 	"energy consumption" 0.08
-	"energy capacity" 414
+	"energy capacity" 420
 #	"turning heat" 0.15
 #	"heat generation" 0.1
 	description `This module takes advantage of a fast-spinning wheel of a dense and durable alloy, suspended by electromagnetic bearings. By rotating the way the gyroscope faces on its gimbal, the wheel transfers some of its momentum to the ship, producing a turning force, without the need for thrusters.`
@@ -32,7 +32,7 @@ outfit "CMG-48-32 Gyroscope"
 #	"turn" 157
 	"turning energy" 0.44
 	"energy consumption" 0.22
-	"energy capacity" 952
+	"energy capacity" 950
 #	"turning heat" 0.345
 #	"heat generation" 0.23
 	description "Ships attempting to maximise their forward thrust may gut some of their other systems, upgrade their engines, then add one of these gyroscopes to get rotation without taking away engine space."
@@ -48,7 +48,7 @@ outfit "CMG-72-48 Gyroscope"
 	"turn" 553
 	"turning energy" 0.92
 	"energy consumption" 0.46
-	"energy capacity" 1632
+	"energy capacity" 1600
 #	"turning heat" 0.7935
 #	"heat generation" 0.92
 	description `Gyroscopes such as this are commonly used on large satellites and relatively small space stations.`
@@ -63,7 +63,7 @@ outfit "CMG-96-64 Gyroscope"
 	"turn" 884.7
 	"turning energy" 1.768
 	"energy consumption" 0.884
-	"energy capacity" 2518
+	"energy capacity" 2500
 #	"turning heat" 1.82505
 #	"heat generation" 1.2167
 #	"energy capacity" 2432
